@@ -1,0 +1,3482 @@
+{
+  "referral": {
+    "topPrescribers": [
+      {
+        "key": "1578571881",
+        "attributes": {
+          "label": "WEISS, ALLAN S.",
+          "specialization": "Psychiatry & Neurology",
+          "prescriber": true,
+          "location": {
+            "country": null,
+            "zipcode": 33705,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "6055",
+            "patientsCountTotal": "346",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "2",
+                "claimsCount": "24"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1215991823",
+        "attributes": {
+          "label": "BENAMEUR, NICOLE REED",
+          "specialization": "Nurse Practitioner",
+          "prescriber": true,
+          "location": {
+            "country": null,
+            "zipcode": 43203,
+            "city": "Columbus",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3536",
+            "patientsCountTotal": "237",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "1",
+                "claimsCount": "2"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1114974268",
+        "attributes": {
+          "label": "CORSE, ANDREA M",
+          "specialization": "Psychiatry & Neurology",
+          "prescriber": true,
+          "location": {
+            "country": null,
+            "zipcode": 21287,
+            "city": "Baltimore",
+            "state": "MD"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3816",
+            "patientsCountTotal": "235",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1821099011",
+        "attributes": {
+          "label": "SMALL, GEORGE A",
+          "specialization": "Psychiatry & Neurology",
+          "prescriber": true,
+          "location": {
+            "country": null,
+            "zipcode": 15212,
+            "city": "Pittsburgh",
+            "state": "PA"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "4357",
+            "patientsCountTotal": "231",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "2",
+                "claimsCount": "19"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "nodes": [
+      {
+        "key": "1003228131",
+        "attributes": {
+          "label": "NELSON, CAROLINA VAC",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33702,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "19",
+            "patientsCountTotal": "3",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1023076510",
+        "attributes": {
+          "label": "WITT, KEVIN B",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33707,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "10",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1033210745",
+        "attributes": {
+          "label": "CLARKSON, TODD FREDERICK",
+          "specialization": "General Practice",
+          "location": {
+            "country": null,
+            "zipcode": 33776,
+            "city": "Seminole",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1043206816",
+        "attributes": {
+          "label": "ZANE, MICHAEL ANTHONY",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33584,
+            "city": "Seffner",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "16",
+            "patientsCountTotal": "3",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1043208333",
+        "attributes": {
+          "label": "PANTALEON, MARIA C",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33755,
+            "city": "Clearwater",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1083717862",
+        "attributes": {
+          "label": "TIPPETT, JESSE",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34655,
+            "city": "New Port Richey",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "5",
+            "patientsCountTotal": "3",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1093768236",
+        "attributes": {
+          "label": "SKINNER, TARA LYNN",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33777,
+            "city": "Seminole",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1114927696",
+        "attributes": {
+          "label": "LOUKANOVA, MILENA",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33919,
+            "city": "Fort Myers",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "6",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1114959046",
+        "attributes": {
+          "label": "HERRERO-MUJIC, BELEN M.",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33647,
+            "city": "Tampa",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1134224561",
+        "attributes": {
+          "label": "POLIN, ARTHUR ROY",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34684,
+            "city": "Palm Harbor",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1164738159",
+        "attributes": {
+          "label": "DEVRIES, BENJAMIN",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33756,
+            "city": "Clearwater",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "5",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1174512065",
+        "attributes": {
+          "label": "GUERRIER, FREDERIC JUDES",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33701,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1194710871",
+        "attributes": {
+          "label": "CHAN, COLIN",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33716,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "9",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1215136759",
+        "attributes": {
+          "label": "BIGGERS, JOEL M",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33511,
+            "city": "Brandon",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "14",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1235114364",
+        "attributes": {
+          "label": "KARKARE, RAJENDRA",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33772,
+            "city": "Seminole",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "6",
+            "patientsCountTotal": "4",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1245225846",
+        "attributes": {
+          "label": "SCELFO, JAMES GREGORY",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34747,
+            "city": "Kissimmee",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1255338083",
+        "attributes": {
+          "label": "KING, MARY J",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33771,
+            "city": "Largo",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1275584369",
+        "attributes": {
+          "label": "MEDIRATTA, NIBHA",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34711,
+            "city": "Clermont",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1306837257",
+        "attributes": {
+          "label": "ROSARIO, ANIBAL",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34741,
+            "city": "Kissimmee",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "12",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1326006081",
+        "attributes": {
+          "label": "CROMER, MICHAEL A",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33830,
+            "city": "Bartow",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1326046756",
+        "attributes": {
+          "label": "PHAM, KAREN L",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34285,
+            "city": "Venice",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1326080581",
+        "attributes": {
+          "label": "MARICHAL, FELIX R",
+          "specialization": "General Practice",
+          "location": {
+            "country": null,
+            "zipcode": 32825,
+            "city": "Orlando",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "5",
+            "patientsCountTotal": "3",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1326085416",
+        "attributes": {
+          "label": "SUBRAMANIAN, THONDIKULAM ANANTHANARAYANAN",
+          "specialization": "Psychiatry & Neurology",
+          "location": {
+            "country": null,
+            "zipcode": 34667,
+            "city": "Hudson",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "132",
+            "patientsCountTotal": "9",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1336136696",
+        "attributes": {
+          "label": "MORALES, SANTIAGO",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34684,
+            "city": "Palm Harbor",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1356331995",
+        "attributes": {
+          "label": "RODRIGUEZ, DANIEL HECTOR",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34655,
+            "city": "New Port Richey",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "25",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1356378905",
+        "attributes": {
+          "label": "SHAH, ANANTKUMAR MANUBHAI",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33761,
+            "city": "Clearwater",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "14",
+            "patientsCountTotal": "3",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1386671774",
+        "attributes": {
+          "label": "BEASLEY, JON W",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33761,
+            "city": "Clearwater",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1386798452",
+        "attributes": {
+          "label": "MATHAN, SUKUMAR",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33884,
+            "city": "Winter Haven",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "51",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1417955337",
+        "attributes": {
+          "label": "MARTINEZ, EDUARDO HUGO",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33716,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "5",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1427058791",
+        "attributes": {
+          "label": "CARSON, THOMAS E.",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34994,
+            "city": "Stuart",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "22",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1437101359",
+        "attributes": {
+          "label": "WANGER, MICHAEL P",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33756,
+            "city": "Clearwater",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "31",
+            "patientsCountTotal": "3",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1447345335",
+        "attributes": {
+          "label": "MARTE-GRAU, ANDRES C",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33634,
+            "city": "Tampa",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1477619559",
+        "attributes": {
+          "label": "TATAMBHOTLA, ANU",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34446,
+            "city": "Homosassa",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1487815130",
+        "attributes": {
+          "label": "TODD, JACQUELINE ELAINE",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33770,
+            "city": "Largo",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1497721385",
+        "attributes": {
+          "label": "TRAN, TRUC T",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 32806,
+            "city": "Orlando",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1518071356",
+        "attributes": {
+          "label": "OSTER, DINA",
+          "specialization": "Hospitalist",
+          "location": {
+            "country": null,
+            "zipcode": 34695,
+            "city": "Safety Harbor",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1518285139",
+        "attributes": {
+          "label": "ZELAYA-ARAGON, SHEYLA",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34788,
+            "city": "Leesburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "33",
+            "patientsCountTotal": "3",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1518983345",
+        "attributes": {
+          "label": "MENEZES, LAKSHMI AVULA",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33559,
+            "city": "Lutz",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "10",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1609873322",
+        "attributes": {
+          "label": "YAMANI, MOHAMMAD ILYAS",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33756,
+            "city": "Clearwater",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "24",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1659320364",
+        "attributes": {
+          "label": "LANGER, ROSE M",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34655,
+            "city": "New Port Richey",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1659700862",
+        "attributes": {
+          "label": "DUKE, MATTHEW",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34613,
+            "city": "Brooksville",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1689754426",
+        "attributes": {
+          "label": "GOLZARI, IRAJ",
+          "specialization": "General Practice",
+          "location": {
+            "country": null,
+            "zipcode": 34293,
+            "city": "Venice",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "40",
+            "patientsCountTotal": "3",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1699047472",
+        "attributes": {
+          "label": "PATEL, ARPIT V",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33770,
+            "city": "Largo",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "13",
+            "patientsCountTotal": "3",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1700843885",
+        "attributes": {
+          "label": "LANZA, DONALD C",
+          "specialization": "Otolaryngology",
+          "location": {
+            "country": null,
+            "zipcode": 33702,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1720287659",
+        "attributes": {
+          "label": "SAMUEL, ABIE ALIAS",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33705,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "61",
+            "patientsCountTotal": "7",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1740556091",
+        "attributes": {
+          "label": "FELDMAN, MAX JONATHON",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33763,
+            "city": "Clearwater",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "33",
+            "patientsCountTotal": "3",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1760486237",
+        "attributes": {
+          "label": "SAFDAR, SYED ALI",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33541,
+            "city": "Zephyrhills",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1780607846",
+        "attributes": {
+          "label": "GREER, DEBORAH M",
+          "specialization": "Nurse Practitioner",
+          "location": {
+            "country": null,
+            "zipcode": 33585,
+            "city": "Sumterville",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "10",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1780660852",
+        "attributes": {
+          "label": "TARASCHI, PETER WILLIAM",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 32907,
+            "city": "Palm Bay",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1790737898",
+        "attributes": {
+          "label": "BEACH, COLIN S",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33647,
+            "city": "Tampa",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1801232400",
+        "attributes": {
+          "label": "LEVOY, CRAIG STEVEN",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33704,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1801902283",
+        "attributes": {
+          "label": "DALAL, PIYUSH",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33711,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1801926001",
+        "attributes": {
+          "label": "COOPER, KIRSTEN LEA",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33770,
+            "city": "Largo",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1811900954",
+        "attributes": {
+          "label": "BELTRE, MAGDALENA G.",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34761,
+            "city": "Ocoee",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "14",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1831285543",
+        "attributes": {
+          "label": "HUGHES, DAVID A",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 34684,
+            "city": "Palm Harbor",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1841277225",
+        "attributes": {
+          "label": "KASZUBA, ROBERT",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33772,
+            "city": "Seminole",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "92",
+            "patientsCountTotal": "5",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1841594801",
+        "attributes": {
+          "label": "PRAWER, ADAM J",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33702,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "39",
+            "patientsCountTotal": "8",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1861581266",
+        "attributes": {
+          "label": "MAHAJAN, RANJAN",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33770,
+            "city": "Largo",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "5",
+            "patientsCountTotal": "4",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1871738948",
+        "attributes": {
+          "label": "ROSARIO-PRIETO, MICHAEL",
+          "specialization": "Psychiatry & Neurology",
+          "location": {
+            "country": null,
+            "zipcode": 33705,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1108",
+            "patientsCountTotal": "70",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "2",
+                "claimsCount": "85"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1871821447",
+        "attributes": {
+          "label": "BRADFIELD, LAVONE GLEMA",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 32806,
+            "city": "Orlando",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "4",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1881613859",
+        "attributes": {
+          "label": "WHITAKER, JOE E",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33629,
+            "city": "Tampa",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "7",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1902992456",
+        "attributes": {
+          "label": "SPUZA MILORD, MICHELLE S",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33708,
+            "city": "Saint Petersburg",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "95",
+            "patientsCountTotal": "6",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1912989088",
+        "attributes": {
+          "label": "BARBARITE, ROBERT V",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33142,
+            "city": "Miami",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1992938203",
+        "attributes": {
+          "label": "MORA, MELISSA ROSE",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 33411,
+            "city": "West Palm Beach",
+            "state": "FL"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1013970565",
+        "attributes": {
+          "label": "PETRI PICKSTONE, BENITA M",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43221,
+            "city": "Columbus",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "13",
+            "patientsCountTotal": "4",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1033194949",
+        "attributes": {
+          "label": "DORADO, JAMES R",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43214,
+            "city": "Columbus",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1164480208",
+        "attributes": {
+          "label": "LEMAY, DONALD C,",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43215,
+            "city": "Columbus",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1174933444",
+        "attributes": {
+          "label": "FRIED, MARTIN CLENDENNING",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43221,
+            "city": "Columbus",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1184600512",
+        "attributes": {
+          "label": "O'CONNOR, JOHN C",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43311,
+            "city": "Bellefontaine",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1184606303",
+        "attributes": {
+          "label": "BENNINGTON, GARTH A",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43055,
+            "city": "Newark",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1235177007",
+        "attributes": {
+          "label": "BARNES, JAMES A",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43147,
+            "city": "Pickerington",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1235331224",
+        "attributes": {
+          "label": "OKOLIE, COLLINS",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 45601,
+            "city": "Chillicothe",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "17",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1275574014",
+        "attributes": {
+          "label": "BUONI, WILLIAM",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43221,
+            "city": "Columbus",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "4",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1548238371",
+        "attributes": {
+          "label": "COLUMBER, HEATHER ELAINE",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43302,
+            "city": "Marion",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1659455863",
+        "attributes": {
+          "label": "FREIMER, MIRIAM L",
+          "specialization": "Psychiatry & Neurology",
+          "location": {
+            "country": null,
+            "zipcode": 43221,
+            "city": "Columbus",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3120",
+            "patientsCountTotal": "208",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "3",
+                "claimsCount": "47"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1700084787",
+        "attributes": {
+          "label": "DINE, MELISSA A.",
+          "specialization": "General Practice",
+          "location": {
+            "country": null,
+            "zipcode": 43081,
+            "city": "Westerville",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1760420707",
+        "attributes": {
+          "label": "GRULKOWSKI, MARY S",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43082,
+            "city": "Westerville",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "13",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1831190206",
+        "attributes": {
+          "label": "DONZELLA, JOSEPH GUY",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 26003,
+            "city": "Wheeling",
+            "state": "WV"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "5",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1013159326",
+        "attributes": {
+          "label": "KHOSHNOODI, MOHAMMAD ALI",
+          "specialization": "Psychiatry & Neurology",
+          "location": {
+            "country": null,
+            "zipcode": 21287,
+            "city": "Baltimore",
+            "state": "MD"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "326",
+            "patientsCountTotal": "26",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1124124326",
+        "attributes": {
+          "label": "HAFER-MACKO, CHARLENE",
+          "specialization": "Specialist",
+          "location": {
+            "country": null,
+            "zipcode": 21201,
+            "city": "Baltimore",
+            "state": "MD"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2623",
+            "patientsCountTotal": "155",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1215929112",
+        "attributes": {
+          "label": "POBLETE, PIO L.",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 21044,
+            "city": "Columbia",
+            "state": "MD"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1295780195",
+        "attributes": {
+          "label": "MROSS, KERRI AN",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 21202,
+            "city": "Baltimore",
+            "state": "MD"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "29",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1346201928",
+        "attributes": {
+          "label": "TURNER, ROBERT THOMSON",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 21204,
+            "city": "Towson",
+            "state": "MD"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1386678829",
+        "attributes": {
+          "label": "PASUMARTHY, LAKSHMI SAKUNTALA",
+          "specialization": "Hospitalist",
+          "location": {
+            "country": null,
+            "zipcode": 17403,
+            "city": "York",
+            "state": "PA"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1427362383",
+        "attributes": {
+          "label": "OSHIYOYE, KOLAWALE ADEDEJI",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 25401,
+            "city": "Martinsburg",
+            "state": "WV"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1437197423",
+        "attributes": {
+          "label": "ROBLES, EDWIN L",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 17109,
+            "city": "Harrisburg",
+            "state": "PA"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "7",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1487831749",
+        "attributes": {
+          "label": "DESHMUKH, VRUSHALI",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 17403,
+            "city": "York",
+            "state": "PA"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "21",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1689937922",
+        "attributes": {
+          "label": "WILLIAMS, HOLLY",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 21401,
+            "city": "Annapolis",
+            "state": "MD"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "1",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1710102124",
+        "attributes": {
+          "label": "GRINNEN, KATHRYN",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 19958,
+            "city": "Lewes",
+            "state": "DE"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "15",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1790710721",
+        "attributes": {
+          "label": "CONNOLLY, CHRISTOPHER P",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 20176,
+            "city": "Leesburg",
+            "state": "VA"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1013914605",
+        "attributes": {
+          "label": "AL-FAKIH, MOUHANAD",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 15425,
+            "city": "Connellsville",
+            "state": "PA"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "13",
+            "patientsCountTotal": "4",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1336146448",
+        "attributes": {
+          "label": "FIGEL, JOHN",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 43953,
+            "city": "Steubenville",
+            "state": "OH"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "2",
+            "patientsCountTotal": "2",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1366415291",
+        "attributes": {
+          "label": "GUTHRIE, LISA",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 15222,
+            "city": "Pittsburgh",
+            "state": "PA"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "3",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1508868233",
+        "attributes": {
+          "label": "JOHNSON, GARY E.",
+          "specialization": "Family Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 15656,
+            "city": "Leechburg",
+            "state": "PA"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "21",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1730323841",
+        "attributes": {
+          "label": "GLUHANICK, MICHAEL WILLIAM",
+          "specialization": "Internal Medicine",
+          "location": {
+            "country": null,
+            "zipcode": 15224,
+            "city": "Pittsburgh",
+            "state": "PA"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "5",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "1891746418",
+        "attributes": {
+          "label": "VINARSKI, IRNIA",
+          "specialization": "Specialist",
+          "location": {
+            "country": null,
+            "zipcode": 15136,
+            "city": "Mc Kees Rocks",
+            "state": "PA"
+          },
+          "prescriptions": {
+            "claimsCountTotal": "116",
+            "patientsCountTotal": "1",
+            "drugs": {
+              "soliris": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              },
+              "vyvgart": {
+                "patientsCount": "0",
+                "claimsCount": "0"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "1003228131",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "2"
+        }
+      },
+      {
+        "source": "1023076510",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1033210745",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1043206816",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1043208333",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1083717862",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1093768236",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1114927696",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1114959046",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1134224561",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1164738159",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1174512065",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1194710871",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1215136759",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1235114364",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1245225846",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1255338083",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1275584369",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1306837257",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "2"
+        }
+      },
+      {
+        "source": "1326006081",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1326046756",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1326080581",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1326085416",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1336136696",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1356331995",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1356378905",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1386671774",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1386798452",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1417955337",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1427058791",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1437101359",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1447345335",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1477619559",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1487815130",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1497721385",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1518071356",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1518285139",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1518983345",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1609873322",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1659320364",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1659700862",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1689754426",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1699047472",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1700843885",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1720287659",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1740556091",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1760486237",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1780607846",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1780660852",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1790737898",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1801232400",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1801902283",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1801926001",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1811900954",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1831285543",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1841277225",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1841594801",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1861581266",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1871738948",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1871821447",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1881613859",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1902992456",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1912989088",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1992938203",
+        "target": "1578571881",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1013970565",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1033194949",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1164480208",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1174933444",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1184600512",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1184606303",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1235177007",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1235331224",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1275574014",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1548238371",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1659455863",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1700084787",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1760420707",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1831190206",
+        "target": "1215991823",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1013159326",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1124124326",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1215929112",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1295780195",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1346201928",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1386678829",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1427362383",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1437197423",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1487831749",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1689937922",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1710102124",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1790710721",
+        "target": "1114974268",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1013914605",
+        "target": "1821099011",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1336146448",
+        "target": "1821099011",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1366415291",
+        "target": "1821099011",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1508868233",
+        "target": "1821099011",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1730323841",
+        "target": "1821099011",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      },
+      {
+        "source": "1891746418",
+        "target": "1821099011",
+        "attributes": {
+          "label": "Referral",
+          "weight": "1"
+        }
+      }
+    ]
+  }
+}

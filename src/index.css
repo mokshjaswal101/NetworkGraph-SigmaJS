@@ -1,0 +1,100 @@
+/* base */
+
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: var(--normal);
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn {
+  color: white;
+  border-radius: 3px;
+  font-size: var(--heading);
+  padding: 0.5rem 1rem;
+}
+
+/* Loader Animation */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* css variables */
+:root {
+  --heading: 16px;
+  --normal: 14px;
+  --small: 12px;
+  --color-primary: #007bff;
+  --color-bg: #d3d3d3;
+  --color-offwhite: #f5f5f5;
+  --color-green: #23aa00;
+}
+
+.topKolItem:hover {
+  background: var(--color-primary);
+  color: white;
+}
+
+.divMarkerLeaflet {
+  background: none;
+  border-radius: 50%;
+}
+
+/* pagination */
+.page-item,
+.item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  margin: 0 0.1rem;
+}
+
+.page-link {
+  padding: 0.25rem 0.3rem;
+}
+
+.active {
+  border: solid 1px var(--color-bg);
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 3px;
+}
+
+.pagination {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+  padding: 0;
+}
+
+.pagination-page {
+  font-weight: 700;
+}
