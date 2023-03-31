@@ -21,7 +21,12 @@ const Dropdown = ({ label, children }) => {
     >
       <label>{label}</label>
 
-      <ul className="dropdown-list">{children}</ul>
+      <ul
+        className="dropdown-list"
+        style={{ maxHeight: "300px", overflowY: "scroll" }}
+      >
+        {children}
+      </ul>
     </div>
   );
 };

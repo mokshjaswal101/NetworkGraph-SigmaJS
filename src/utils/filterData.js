@@ -1,8 +1,8 @@
+//icons
 import starred from "../assets/starred.png";
 import starBlue from "../assets/bluestar.png";
 import diamondBlue from "../assets/diamondblue.png";
-
-import specializations from "../data/specializations";
+import lock from "../assets/lock.png";
 
 const filterData = (
   data,
@@ -14,7 +14,8 @@ const filterData = (
   setStateList,
   setSpecializationList,
   setSelectedState,
-  setSelectedSpecialization
+  setSelectedSpecialization,
+  unlockedNodes = -1
 ) => {
   let filteredData = { nodes: [], edges: [] };
   let stateList = [];
@@ -22,8 +23,20 @@ const filterData = (
 
   //filter data based on selected hcp
   if (selectedHcp?.key) {
-    let res = filterBasedOnSelectedHcp(data, selectedHcp, influenceTypes);
-    filteredData = res.filteredData;
+    if (
+      selectedHcp?.attributes.icon == lock ||
+      selectedHcp?.attributes.label == "Locked"
+    ) {
+      selectedHcp = data.nodes.find((node) => node.key == selectedHcp.key);
+    }
+
+    let res = filterBasedOnSelectedHcp(
+      data,
+      selectedHcp,
+      influenceTypes,
+      unlockedNodes
+    );
+    filteredData = res.newData;
     stateList = res.stateList;
     specializationList = res.specializationList;
   } else {
@@ -57,78 +70,81 @@ const filterData = (
 };
 
 //filter data based on the selected Hcp
-const filterBasedOnSelectedHcp = (data, selectedHcp, influenceTypes) => {
+const filterBasedOnSelectedHcp = (
+  data,
+  selectedHcp,
+  influenceTypes,
+  unlockedNodes
+) => {
   let newData = { nodes: [], edges: [] };
   let stateList = new Set();
   let specializationList = new Set();
 
-  // filter
+  // filter edges if selected hcp is equal to either source or target
   data?.edges?.forEach((edge) => {
     if (
       (edge.source == selectedHcp.key || edge.target == selectedHcp.key) &&
       influenceTypes.includes(edge.type)
     ) {
-      let newEdge = structuredClone(edge);
-      newEdge.level = "first";
-      newData.edges.push(newEdge);
+      newData.edges.push(edge);
     }
   });
 
   newData.nodes.push(selectedHcp);
   specializationList.add(selectedHcp?.attributes?.specialization);
   stateList.add(selectedHcp.attributes.state);
-  if (
-    !Object.keys(specializations).includes(
-      selectedHcp.attributes.specialization
-    )
-  )
-    specializationList.add(selectedHcp.attributes.specialization);
 
-  data?.nodes?.forEach((element) => {
+  // get nodes based on the edges filtered
+  data?.nodes?.forEach((node) => {
     newData?.edges?.forEach((edge) => {
       if (
-        element.key != selectedHcp.key &&
-        (element.key == edge.source || element.key == edge.target) &&
-        !newData.nodes.some((x) => x.key == element.key)
+        node.key != selectedHcp.key &&
+        (node.key == edge.source || node.key == edge.target) &&
+        !newData.nodes.some((x) => x.key == node.key)
       ) {
-        newData.nodes.push(structuredClone(element));
-        stateList.add(element.attributes.state);
+        let newNode = structuredClone(node);
+        let temp = edge.attributes.isVisible;
+        newNode.attributes.isVisible = temp;
+
         if (
-          Object.keys(specializations).includes(
-            element.attributes.specialization
-          )
-        )
-          specializationList.add(element.attributes.specialization);
+          unlockedNodes != -1 &&
+          newNode.attributes.isVisible > unlockedNodes
+        ) {
+          newNode.attributes.icon = lock;
+          newNode.attributes.label = "Locked";
+        }
+        newData.nodes.push(newNode);
+        stateList.add(node.attributes.state);
+        specializationList.add(node.attributes.specialization);
       }
     });
   });
 
-  data = structuredClone(newData);
   stateList = Array.from(stateList);
   specializationList = Array.from(specializationList);
-
-  return { data, stateList, specializationList };
+  newData = structuredClone(newData);
+  return { newData, stateList, specializationList };
 };
 
 //filter data based on the advanced filters
 const filterBasedOnAdvancedFilters = (
-  totalData,
+  data,
   selectedSpecialization,
   selectedState
 ) => {
-  let displayData = structuredClone(totalData);
+  let displayData = structuredClone(data);
 
   // filtering based on specialization
   if (selectedSpecialization && selectedSpecialization != "") {
     let filteredData = { nodes: [], edges: [] };
     if (selectedSpecialization == "others") {
-      totalData.nodes.forEach((node) =>
+      data.nodes.forEach((node) =>
         !node.attributes.specialization
           ? filteredData.nodes.push(structuredClone(node))
           : null
       );
     } else {
-      totalData.nodes.forEach((node) =>
+      data.nodes.forEach((node) =>
         node.attributes.specialization === selectedSpecialization
           ? filteredData.nodes.push(structuredClone(node))
           : null
@@ -137,7 +153,7 @@ const filterBasedOnAdvancedFilters = (
 
     let extraNodes = [];
 
-    totalData.edges.forEach((edge) => {
+    data.edges.forEach((edge) => {
       let source = filteredData.nodes.find((node) => node.key === edge.source);
       let target = filteredData.nodes.find((node) => node.key === edge.target);
 
@@ -145,14 +161,10 @@ const filterBasedOnAdvancedFilters = (
         filteredData.edges.push(edge);
       } else if (source || target) {
         if (source) {
-          extraNodes.push(
-            totalData.nodes.find((node) => node.key === edge.target)
-          );
+          extraNodes.push(data.nodes.find((node) => node.key === edge.target));
         }
         if (target) {
-          extraNodes.push(
-            totalData.nodes.find((node) => node.key === edge.source)
-          );
+          extraNodes.push(data.nodes.find((node) => node.key === edge.source));
         }
 
         filteredData.edges.push(edge);
@@ -163,9 +175,12 @@ const filterBasedOnAdvancedFilters = (
     {
       !selectedState &&
         filteredData.nodes.forEach((node) => {
-          if (node?.attributes?.icon == starred)
+          if(node.attributes.icon != lock) {
+            if (node?.attributes?.icon == starred)
             node.attributes.icon = starBlue;
           else node.attributes.icon = diamondBlue;
+          }
+         
         });
     }
 
@@ -197,14 +212,10 @@ const filterBasedOnAdvancedFilters = (
         filteredData.edges.push(edge);
       } else if (source || target) {
         if (source) {
-          extraNodes.push(
-            totalData.nodes.find((node) => node.key === edge.target)
-          );
+          extraNodes.push(data.nodes.find((node) => node.key === edge.target));
         }
         if (target) {
-          extraNodes.push(
-            totalData.nodes.find((node) => node.key === edge.source)
-          );
+          extraNodes.push(data.nodes.find((node) => node.key === edge.source));
         }
 
         filteredData.edges.push(edge);
@@ -214,8 +225,11 @@ const filterBasedOnAdvancedFilters = (
 
     {
       filteredData.nodes.forEach((node) => {
-        if (node?.attributes?.icon == starred) node.attributes.icon = starBlue;
-        else node.attributes.icon = diamondBlue;
+        if(node.attributes.icon != lock){
+          if (node?.attributes?.icon == starred) node.attributes.icon = starBlue;
+          else node.attributes.icon = diamondBlue;
+        }
+       
       });
     }
 

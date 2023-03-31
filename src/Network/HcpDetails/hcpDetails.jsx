@@ -11,6 +11,7 @@ import { fetchHcpDetails } from "../../api";
 import capitalizeWords from "../../utils/capitalizeWords";
 
 const HcpDetails = ({
+  projectId,
   selectedHcp: hcp,
   setIsHcpDetailsShown,
   isPrescriberShown,
@@ -19,7 +20,7 @@ const HcpDetails = ({
 
   useEffect(() => {
     if (!isPrescriberShown) {
-      fetchHcpDetails(hcp.key).then((res) => {
+      fetchHcpDetails(hcp.key, projectId).then((res) => {
         setHcpData(res);
       });
     }

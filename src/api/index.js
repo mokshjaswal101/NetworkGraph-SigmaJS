@@ -6,10 +6,10 @@ const client = axios.create({
 //https://networkgraph-backend.pharmaacuity.com/
 //"http://pa-v2-api-nlb-3c27031a599085c6.elb.us-east-2.amazonaws.com:3000"
 
-const fetchAllData = async () => {
+const fetchAllData = async (projectId) => {
   try {
     let response = await axios.get(
-      "https://network-graph-data.s3.us-east-2.amazonaws.com/project_id_1936e211-b997-11ed-8c61-52d672bc987d/network_graph.json"
+      `https://network-graph-data.s3.us-east-2.amazonaws.com/project_id_${projectId}/network_graph.json`
     );
     return response.data;
   } catch (err) {
@@ -17,10 +17,10 @@ const fetchAllData = async () => {
   }
 };
 
-const fetchHcpDetails = async (id) => {
+const fetchHcpDetails = async (hcpId, projectId) => {
   try {
     let response = await client.get(
-      `elastic/getone?uuid=${id}&project_id=1936e211-b997-11ed-8c61-52d672bc987d`
+      `elastic/getone?uuid=${hcpId}&project_id=${projectId}`
     );
 
     return response.data;
@@ -29,24 +29,4 @@ const fetchHcpDetails = async (id) => {
   }
 };
 
-const fetchAffiliations = async (id) => {
-  try {
-    let response = await client.get(`/elastic/getaffiliation`);
-
-    return response.data;
-  } catch (err) {
-    console.log(err);
-  }
-};
-
-const fetchCitations = async (id) => {
-  try {
-    let response = await client.get(`/elastic/getcitation`);
-
-    return response.data;
-  } catch (err) {
-    console.log(err);
-  }
-};
-
-export { fetchAllData, fetchHcpDetails, fetchAffiliations, fetchCitations };
+export { fetchAllData, fetchHcpDetails };

@@ -3,13 +3,13 @@ import React from "react";
 //components
 import LegendItem from "./legendItem";
 
-//Legends data
-import Specializations from "../../data/specializations";
-
 //utils
 import capitalizeWords from "../../utils/capitalizeWords";
 
-const LegendsBottom = ({ specializationList }) => {
+const LegendsBottom = ({
+  specializationList,
+  specializationsOfInterest = {},
+}) => {
   return (
     <div
       style={{
@@ -18,7 +18,7 @@ const LegendsBottom = ({ specializationList }) => {
         gap: ".75rem",
       }}
     >
-      {Object.entries(Specializations)
+      {Object.entries(specializationsOfInterest)
         .filter((el) => specializationList.includes(el[0]) || el[0] == "other")
         ?.map((el, index) => {
           return (

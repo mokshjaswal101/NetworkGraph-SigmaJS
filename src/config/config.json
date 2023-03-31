@@ -1,0 +1,58 @@
+{
+  "a0d3c6ec-e30e-4ccb-925d-7327f1c58031": {
+    "projectId": "a0d3c6ec-e30e-4ccb-925d-7327f1c58031",
+    "projectName": "Halozyme",
+    "unlockedNodes": 3,
+    "specializationsOfInterest": {
+      "Neurology": "#63af34",
+      "Neuromuscular Medicine": "#bfd247",
+      "internal medicine pediatrics": "#827ad5",
+      "Clinical Neurophysiology": "#af2cb3",
+      "Psychiatry": "#ADD8E6",
+      "Vascular Neurology": "#454B1B",
+      "Sleep Medicine": "#00FFFF",
+      "Neurocritical Care": "#90EE90",
+      "other": "#275E40"
+    },
+    "countriesOfInterst": [
+      "usa",
+      "us",
+      "uk",
+      "united states",
+      "united kingdom",
+      "germany",
+      "italy",
+      "spain",
+      "france"
+    ],
+    "edgesCharacteristics": ""
+  },
+  "1936e211-b997-11ed-8c61-52d672bc987d": {
+    "projectId": "1936e211-b997-11ed-8c61-52d672bc987d",
+    "projectName": "MG v2",
+    "unlockedNodes": 0,
+    "specializationsOfInterest": {
+      "Neurology": "#63af34",
+      "Neuromuscular Medicine": "#bfd247",
+      "internal medicine pediatrics": "#827ad5",
+      "Clinical Neurophysiology": "#af2cb3",
+      "Psychiatry": "#ADD8E6",
+      "Vascular Neurology": "#454B1B",
+      "Sleep Medicine": "#00FFFF",
+      "Neurocritical Care": "#90EE90",
+      "other": "#275E40"
+    },
+    "countriesOfInterest": [
+      "usa",
+      "us",
+      "uk",
+      "united states",
+      "united kingdom",
+      "germany",
+      "italy",
+      "spain",
+      "france"
+    ],
+    "edgesCharacteristics": ""
+  }
+}

@@ -12,6 +12,7 @@ import Loader from "../components/Loader/loader";
 // dummy data for testing
 import DummyData from "../data/network_graph.json";
 import DummyReferralData from "../data/network_graph_temp.json";
+import DummyDataHalozyme from "../data/network_graph_holozyme.json";
 
 //apis to fetch data
 import { fetchAllData } from "../api";
@@ -19,6 +20,9 @@ import { fetchAllData } from "../api";
 //utils
 import formatResponse from "../utils/formatResponse";
 import filterData from "../utils/filterData";
+
+//configs
+import configJson from "../config/config.json";
 
 const Network = () => {
   //flag to show either map or graph
@@ -61,14 +65,24 @@ const Network = () => {
   //loader
   const [isLoading, setIsLoading] = useState(true);
 
+  const [projectId, setProjectId] = useState(
+    "a0d3c6ec-e30e-4ccb-925d-7327f1c58031"
+  );
+  const [config, setConfig] = useState();
+
   //handle initial loading of data
   useEffect(() => {
-    fetchAllData().then((res) => {
+    let conf = configJson[projectId];
+    setConfig(conf);
+
+    fetchAllData(projectId).then((res) => {
       //format the response based on requirements for map and graph
       let formattedResponse = formatResponse(
         res.kol_graph,
         res.referral,
-        res.top_nodes
+        res.top_nodes,
+        conf.specializationsOfInterest,
+        conf.countriesOfInterest
       );
 
       //handle intital filtering of data on component mount
@@ -83,8 +97,7 @@ const Network = () => {
         setSpecializationList,
         setSelectedState,
         setSelectedSpecialization,
-        KolsOffset,
-        formattedResponse.topHcps
+        conf?.unlockedNodes
       );
 
       setSelectedHcp(formattedResponse.kols[0]);
@@ -112,8 +125,7 @@ const Network = () => {
       setSpecializationList,
       setSelectedState,
       setSelectedSpecialization,
-      KolsOffset,
-      topHcps
+      config?.unlockedNodes
     );
   }, [influenceTypes, selectedHcp?.key, KolsOffset, topHcps]);
 
@@ -157,18 +169,21 @@ const Network = () => {
         setSelectedState={setSelectedState}
         setStateList={setStateList}
         setSpecializationList={setSpecializationList}
-        KolsOffset={KolsOffset}
-        topHcps={topHcps}
         data={data}
         setIsPrescriberShown={setIsPrescriberShown}
         isPrescriberShown={isPrescriberShown}
         setKolsOffset={setKolsOffset}
+        kolData={kolData}
+        prescriberData={prescriberData}
+        config={config}
+        topHcps={topHcps}
       />
       <div style={{ width: "100%", height: "550px", position: "relative" }}>
         {isLoading && <Loader />}
 
         {isHcpDetailsShown && selectedHcp?.key && (
           <HcpDetails
+            projectId={projectId}
             selectedHcp={selectedHcp}
             setSelectedHcp={setSelectedHcp}
             setIsHcpDetailsShown={setIsHcpDetailsShown}
@@ -194,6 +209,7 @@ const Network = () => {
             data={data}
             setSelectedHcp={setSelectedHcp}
             setIsHcpDetailsShown={setIsHcpDetailsShown}
+            unlockedNodes={config.unlockedNodes}
           />
         ) : (
           <Map
@@ -205,6 +221,7 @@ const Network = () => {
             totalData={totalData}
             influenceTypes={influenceTypes}
             setData={setData}
+            unlockedNodes={config?.unlockedNodes}
           />
         )}
       </div>
@@ -212,6 +229,7 @@ const Network = () => {
       <Legends
         isPrescriberShown={isPrescriberShown}
         specializationList={specializationList}
+        specializationsOfInterest={config?.specializationsOfInterest}
       />
     </div>
   );

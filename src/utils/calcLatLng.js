@@ -1,8 +1,7 @@
 import { Country, State, City } from "country-state-city";
 import zipcodes from "zipcodes";
-import countries from "../data/countries";
 
-const calcLatLng = (location, node) => {
+const calcLatLng = (location, node, countriesOfInterest) => {
   let { zipcode, city, state, country } = location;
 
   // calculate lat long based on zipcode
@@ -21,12 +20,16 @@ const calcLatLng = (location, node) => {
     let res = City.getAllCities().find(
       (el) =>
         el.name.toLowerCase() == city.trim().toLowerCase() &&
-        countries.includes(
+        countriesOfInterest.includes(
           Country.getCountryByCode(el.countryCode).name.toLowerCase()
         )
     );
     if (res?.latitude && res?.longitude) {
-      return { latitude: res.latitude, longitude: res.longitude, state: state };
+      return {
+        latitude: res.latitude,
+        longitude: res.longitude,
+        state: state,
+      };
     }
   }
 
@@ -46,7 +49,7 @@ const calcLatLng = (location, node) => {
     res = State.getAllStates().find(
       (el) =>
         el.isoCode.toLowerCase() == state.trim().toLowerCase() &&
-        countries.includes(
+        countriesOfInterest.includes(
           Country.getCountryByCode(el.countryCode).name.toLowerCase()
         )
     );
@@ -62,7 +65,9 @@ const calcLatLng = (location, node) => {
 
   // calculate lat long based on country
   if (country) {
+    //custom change country code accoring to lib
     if (country == "USA" || country == "usa") country = "us";
+    if (country == "uk" || country == "UK") country = "gb";
     let res = Country.getAllCountries().find(
       (el) =>
         el.isoCode?.toLowerCase() == country.trim().toLowerCase() ||

@@ -14,7 +14,13 @@ import {
   useRegisterEvents,
 } from "@react-sigma/core";
 
-const Graph = ({ data, setSelectedHcp, selectedHcp, setIsHcpDetailsShown }) => {
+const Graph = ({
+  data,
+  setSelectedHcp,
+  selectedHcp,
+  setIsHcpDetailsShown,
+  unlockedNodes,
+}) => {
   const Events = () => {
     const setSettings = useSetSettings();
     const sigma = useSigma();
@@ -29,10 +35,11 @@ const Graph = ({ data, setSelectedHcp, selectedHcp, setIsHcpDetailsShown }) => {
         leaveNode: () => setHoveredNode(null),
         clickNode: (event) => {
           let node = data.nodes.find((el) => el.key == event.node);
-          console.log(node);
-          setSelectedHcp(node);
-          setIsHcpDetailsShown(true);
-          setHoveredNode(null);
+          if (node.attributes.isVisible <= unlockedNodes) {
+            setSelectedHcp(node);
+            setIsHcpDetailsShown(true);
+            setHoveredNode(null);
+          }
         },
       });
     }, []);

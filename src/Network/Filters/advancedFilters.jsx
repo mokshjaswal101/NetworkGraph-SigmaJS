@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-//filtering function
+//utils function
 import filterData from "../../utils/filterData";
+import capitalizeWords from "../../utils/capitalizeWords";
 
 const StyledSelect = styled.select`
   height: 35px;
@@ -27,8 +28,7 @@ const AdvancedFilters = ({
   setSelectedState,
   setSpecializationList,
   setStateList,
-  KolsOffset,
-  topHcps,
+  config,
 }) => {
   const [showFilters, setShowFilters] = useState(false);
 
@@ -59,7 +59,6 @@ const AdvancedFilters = ({
             alignItems: "flex-end",
             gap: "1rem",
             fontSize: "2rem",
-            padding: "0 1rem",
             padding: "1rem ",
           }}
         >
@@ -83,10 +82,7 @@ const AdvancedFilters = ({
                 .map((el, index) => {
                   return (
                     <option key={index} value={el}>
-                      {el
-                        ?.split(" ")
-                        .map((el) => el[0]?.toUpperCase() + el.slice(1))
-                        .join(" ")}
+                      {capitalizeWords(el)}
                     </option>
                   );
                 })}
@@ -138,8 +134,7 @@ const AdvancedFilters = ({
                 setSpecializationList,
                 setSelectedState,
                 setSelectedSpecialization,
-                KolsOffset,
-                topHcps
+                config?.unlockedNodes
               );
             }}
           >
